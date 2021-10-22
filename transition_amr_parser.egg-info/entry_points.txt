@@ -1,0 +1,7 @@
+[console_scripts]
+amr-edit = transition_amr_parser.edit:main
+amr-fake-parse = transition_amr_parser.fake_parse:main
+amr-learn = transition_amr_parser.learn:main
+amr-oracle = transition_amr_parser.data_oracle:main
+amr-parse = transition_amr_parser.parse:main
+

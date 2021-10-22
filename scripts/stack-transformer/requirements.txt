@@ -1,0 +1,22 @@
+# fairseq
+cffi
+fastBPE
+numpy
+regex
+sacrebleu
+
+# transtion_amr_parser
+torch==1.1.0
+spacy==2.2.3
+smatch==1.0.4
+h5py
+tqdm
+
+# extra
+classes
+hydra-core
+omegaconf
+
+# debug/optimization
+ipdb
+line_profiler
