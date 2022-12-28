@@ -31,14 +31,19 @@ To test the trained model on the test split, please run the following command:
 
 ## Citation
 ```
-@misc{fernándezgonzález2021discontinuous,
-      title={Discontinuous Grammar as a Foreign Language},
-      author={Daniel Fernández-González and Carlos Gómez-Rodríguez},
-      year={2021},
-      eprint={2110.10431},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-    }
+@article{FERNANDEZGONZALEZ202343,
+title = {Discontinuous grammar as a foreign language},
+journal = {Neurocomputing},
+volume = {524},
+pages = {43-58},
+year = {2023},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2022.12.045},
+url = {https://www.sciencedirect.com/science/article/pii/S092523122201551X},
+author = {Daniel Fernández-González and Carlos Gómez-Rodríguez},
+keywords = {Natural language processing, Computational linguistics, Parsing, Discontinuous constituent parsing, Neural network, Deep learning, Sequence-to-sequence model},
+abstract = {In order to achieve deep natural language understanding, syntactic constituent parsing is a vital step, highly demanded by many artificial intelligence systems to process both text and speech. One of the most recent proposals is the use of standard sequence-to-sequence models to perform constituent parsing as a machine translation task, instead of applying task-specific parsers. While they show a competitive performance, these text-to-parse transducers are still lagging behind classic techniques in terms of accuracy, coverage and speed. To close the gap, we here extend the framework of sequence-to-sequence models for constituent parsing, not only by providing a more powerful neural architecture for improving their performance, but also by enlarging their coverage to handle the most complex syntactic phenomena: discontinuous structures. To that end, we design several novel linearizations that can fully produce discontinuities and, for the first time, we test a sequence-to-sequence model on the main discontinuous benchmarks, obtaining competitive results on par with task-specific discontinuous constituent parsers and achieving state-of-the-art scores on the (discontinuous) English Penn Treebank.}
+}
 ```
 
 ## Acknowledgments
